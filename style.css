@@ -1,0 +1,46 @@
+body {
+    background-color: cadetblue;
+}
+
+#title {
+    color: bisque;
+    font-family:'fantasy'; 
+    font-size: xx-large;
+    text-align: center;
+}
+
+#img-div {
+    height: 500px;
+    width: 500px;
+    background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-515574944-1565879515.jpg?crop=0.720xw:0.482xh;0.202xw,0.0612xh&resize=640:*);
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    display: grid;
+}
+
+#btn {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    color: bisque;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+    top: 0%;
+    left: 0%;
+    right:0;
+    bottom: 0;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+#output {
+    text-align: center;
+    color:bisque;
+    font-size: x-large;
+}
